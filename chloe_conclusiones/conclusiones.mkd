@@ -1,0 +1,151 @@
+# Conclusiones preguntas Chloe
+
+13. q40 training competitors y q5(filtrando por ML Engineer)
+¿Se eligen los BootCamps para aprender ML?
+
+![grafica pregunta 13](graficas/formacion-elegida-por-ml-engineers.png)
+
+Los ML Engineers no son los que más escogen los bootcamps para aprender, sin embargo tampoco son los que más usan técnicas de ML ni los que más experiencia tienen en ello.
+
+Lo que nos lleva a otra pregunta: ¿Quienes son los profesionales que más eligen los DataCamps para aprender?
+
+![crosstab pregunta 13](graficas/crosstab-cursos-con-todos-los-roles.png)
+
+Los Data Sceintists y Data Analysts sobretodo.
+
+* ¿Qué buscan aprender?
+
+Y...
+
+* ¿Qué profesionales son los que realmente llevan mas tiempo usando ML?
+
+![grafica pregunta 13-14](graficas/experiencia-en-ml-por-cada-rol.png)
+
+Según estos datos (incluir sesgo de role)
+> * Los que tienen más experiencia en ML son los Data Scientists
+> * Lo más común es tener 2-3 años de experiencia en ML, y son los Data Scientists quienes lo tienen
+> * Los ML Engineers no son los que más experiencia tienen en ML, la mayoria llevan de 0 a dos años o de dos a tres años
+> * Son los Data Analysts, Data Scientists y Software Engineers los que más están iniciandose en técnicas de ML, ya que llevan menos de un año usando ML, seguidos por los ML engineers y Business Analysts
+> * Cemos que los Data Analysts están aprendiendo desde hace poco ¿Un bootcamp de ML podría ser una buena opción como continuación de DA?
+
+
+¿Son los bootcamps elegidos como forma de aprender por los DA, DS y SE? Ellos son los que más se estan iniciando en las téncicas de ML.
+
+Seleccionando los puestos que más usan o están aprendiendo ML, vemos qué tipo de formaciones eligen:
+
+![crosstab pregunta 13-14](graficas/crosstab-cursos-con-los-que-mas-usan-ml.png)
+
+![grafica pregunta 13-14](graficas/formacion-elegida-por-los-que-mas-usan-ml.png)
+
+No sabemos si lo que buscan es aprender ML, pero vemos que el formato `bootcamp` está entre sus `5 primeras opciones` y que en general hay una tendencia por parte de estos profesionales a iniciarse en el uso de técnicas de ML.
+
+> - Vemos que los tipos de cursos más elegidos son (por orden):
+>    - Coursera
+>    - Kaggel Learn
+>    - Udemy
+>    - Datacamp (para los DA y DS)
+>    - University (para los ML, RS y SE)
+> - Aunque no es puntera, es mucho más clara la tendencia de hacer bootcamps entre los DA y DS
+-----
+14. q23 current use ML y q5 puesto / q22 tamaño equipos 
+¿En qué puestos se demanda el uso de ML?
+
+Aquí retiramos como no relevantes aquellas entradas realizadas por estudiantes y desempleados.
+
+Por un lado ya conocemos los profesionales que más usan las técnicas de ML.
+
+> DA, DS, ML, RS y SE
+
+Por otro lado nos quedaría responder:
+* Las empresas que sí usan ML, ¿Qué tipo de profesionales tienen en sus equipos?
+
+![grafica pregunta 14](graficas/tipos-de-profesionales-en-empresa.png)
+
+
+> * Se ve que en las compañías donde han establecido el ML durante más tiempo son las que tienen más Data Scientists en su equipo, seguidos de Data Analysts y Software Engineers y ML Engineers
+
+Otras conclusiones (vistas en código):
+> * Por otro lado, y según nuestros datos, lo más habitual (aún) es que las empresas tengan un uso incipiente o nulo de ML
+> * Vemos tambien que la mayoría de las empresas registradas en nuestro estudio son de menos de 50 empleados
+---
+15. q1 edad  y q15 years using ML /q2 género/ 
+¿Cuál es la tendencia para los nuevos empleos?
+
+![grafica pregunta 15](graficas/tendencia-ml-por-edades.png)
+
+> * Se podría interpretar que la tendencia es que las personas más jóvenes están empezando a formarse en ML, siendo las que más lo usan, independientemente de su experiencia
+> * Es posible, además que los grupos de edades de entre 18-30 años sean la muestra más abundante, ya que también es alta la cantidad de gente que no usa metodos ML
+> * 
+
+![grafica pregunta 15](graficas/countplot-edades-en-los-datos.png)
+
+> * Vemos que sí hay más datos recogidos de las edades menores, por lo que nuestro conteo no es del todo fiable, aunque sí se ve la tendencia 
+
+Ya que Adalab es una escuela para mujeres, claculamos estas tendencias por géneros
+
+![grafica pregunta 15](graficas/a%C3%B1os-de-ml-por-genero.png)
+
+> * Se ve que lamayoría de personas que se inician en ML son hombres, aunque también hay ujna tendencia en el genero femenino a aprender metodos ML
+> * Esto es una ventana de oportunidad para las mujeres, ya que saber ML es un punto diferenciador especialmente para ellas.
+
+
+Si además seleccionamos los rangos de edad más frecuentres en este estudio.
+
+![grafica pregunta 15](graficas/a%C3%B1os-de-ml-por-genero-y-edad.png)
+
+> Teniendo en cuenta que la gráfica de la izquierda son hombres y la de la derecha mujeres,
+> * Vemos que sí hay una tendencia de la gente más joven a usar metodos ML, ya sea hombre o mujer
+
+Todo esto, teniendo en cuenta que en este estudio priman los datos de hombres de 25-29 años
+
+![grafica pregunta 15](graficas/sesgo-edad-y-año.png)
+
+---
+16. q15 years using ML y q25 yearly compensation 
+¿Cuál es la remuneración económica en función de la experiencia en ML?
+** Para los paises = Spain, USA y UK
+
+![grafica pregunta 16](graficas/salario-por-experiencia.png)
+
+>##### Conclusión: los salarios no dependen de la experiencia
+>* Vemos que no hay un patrón, ya que `independientemente de la experiencia` que se tenga se puede ganar más o menos en todos los rangos.
+>* Vemos también con el value counts que `lo más frecuente` es que los encuestados ganen entre `100.000-120.000$`, entre `125,000-149,999$`, y entre `150.000-200.000$`.
+>* Vemos con el freq tab que lo más habitual es **150,000-199,999$ con experiencia de 5-10 años** y **100,000-124,999$ con experiencia de < 1 year** 
+
+----
+17. q5 puesto(filtrando ML Engineer) y q7 lenguaje utilizado y q8 lenguajes
+Según los ML Engineers, ¿cuáles son los lenguajes más utilizados y cuáles recomienda?
+
+Seleccionando por los profesionales que más experiencia tienen en ML:
+
+
+![grafica pregunta 17](graficas/leng-usados.png)
+
+> Los lenguajes más usados son Python, SQL y R, seguidos de Java y Javascript
+
+
+![grafica pregunta 17](graficas/leng-recom.png)
+
+> Y el más recomendado con diferencia es Pyton, seguido de lejos por SQL y R
+
+---
+
+11. q40 training competitors q15 years using ml q3 age q5 puesto 
+¿Qué empresa de formación se elige en función de la experiencia en ML y el puesto que se ostenta?
+
+
+Ya vimos la experiencia en ML segun el puesto y acorde a los más experimentados la formación que suelen elegir.
+
+De forma general, por experiencia en ML se suelen elegir las siguientes opciones de formación:
+
+![grafica pregunta 17](graficas/cursos-segun-experiencia.png)
+
+> * Interpretamos que hay menos gente en este estudio que tenga mucha experiencia en ML, y que la mayoría de los encuestados tienen menos de 1 año de experiencia
+> * Respondiendo a la pregunta 11, los cursos elegidos no varían mucho segun la experiencia:
+>   * En primer lugar esta `Coursera`
+>   * En segundo lugar `Kaggel`
+>   * En tercer lugar `Udemy`, en ciertos casos reñido con `cursos universitarios`,
+>   * En quinto lugar los `Datacamps`
+>### Conclusión
+>Los `Datacamps` se encuentran entre las primeras cinco opciones (de 11) que las personas del sector data eligen para formarse
+
